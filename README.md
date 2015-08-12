@@ -28,7 +28,7 @@ Equivalent to `npm v <package> description`.
 
 ### `whatis(packageName, cb(err, description))`
 
-Requests `npmjs.com` for package description and returns it.
+Requests http://npmjs.com for package description and returns it.
 
 ## Install
 
