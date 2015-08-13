@@ -28,7 +28,7 @@ var format = function (name, description) {
   var name = argv[0];
 
   whatis(name, function (err, description) {
-    if (err) console.error(err);
+    if (err) return console.error(err.toString());
     console.log(format(name, description));
   });
 }(process.argv.slice(2)));
