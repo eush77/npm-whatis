@@ -1,6 +1,6 @@
 {
   "name": "npm-whatis",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Describe a package in one sentence (or more)",
   "author": "Eugene Sharygin <eush77@gmail.com>",
   "license": "MIT",
